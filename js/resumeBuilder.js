@@ -5,7 +5,7 @@ var bio = {
 	"image" : "images/pink_muffin.png",
 	"contacts" : [{
 		"mobile" : "(555) 555-5555",
-		"github" : "bendroid", 
+		"github" : "bendroid",
 		"location" : "Rochester, NY",
 		"email" : "myemail@email.com"
 	}],	
@@ -15,18 +15,18 @@ var bio = {
 var work = {
 	"jobs" : [
 	{
-		"employer" : "Latest Job", 
+		"employer" : "Latest Job",
 		"title" : "Cakes",
 		"dates" : "2013 - 2015",
 		"location" : "Rochester, NY",
 		"description" : "Gingerbread gummies cookie. Sweet jujubes jelly beans chocolate bar chupa chups tart jujubes. Sweet icing lemon drops cotton candy jelly beans. Gummi bears caramels gummies oat cake. "
 	},
 	{
-		"employer" : "Second Job", 
+		"employer" : "Second Job",
 		"title" : "Cupcakes",
 		"dates" : "2011 - 2013",
 		"location" : "New York, NY",
-		"description" : "Jelly beans caramels dragée. Chocolate bar caramels gummies pudding. Pudding apple pie wafer marzipan gummi bears. Marzipan chocolate bar sweet. Lemon drops powder cupcake macaroon. Gingerbread donut pastry tootsie roll fruitcake pastry carrot cake."	
+		"description" : "Jelly beans caramels dragée. Chocolate bar caramels gummies pudding. Pudding apple pie wafer marzipan gummi bears. Marzipan chocolate bar sweet. Lemon drops powder cupcake macaroon. Gingerbread donut pastry tootsie roll fruitcake pastry carrot cake."
 	}
 	]
 };
@@ -34,7 +34,7 @@ var work = {
 var projects = {
 	"project" : [{
 		"title" : "Gingerbread",
-		"dates" : "2013", 
+		"dates" : "2013",
 		"description" : "Ice cream topping topping liquorice gummi bears gummi bears macaroon croissant apple pie. Chocolate cake oat cake danish cotton candy bonbon cake marzipan donut. Lollipop fruitcake liquorice biscuit candy gingerbread candy canes cookie oat cake. ", 
 		"images" : ["http://www.cupcakeipsum.com/assets/green_muffin.png","http://www.cupcakeipsum.com/assets/light_pink_muffin.png", "http://www.cupcakeipsum.com/assets/blue_muffin.png","http://www.cupcakeipsum.com/assets/pink_pie.png"]
 	},
@@ -51,7 +51,7 @@ var education = {
 	{
 		"name" : "Chocolate bar oat cake",
 		"location" : "Rochester, NY",
-		"degree" : "Bachelor", 
+		"degree" : "Bachelor",
 		"majors" : "Cupcakes",
 		"dates" : "2001 - 2005",
 		"url" : "https://google.com"
@@ -59,7 +59,7 @@ var education = {
 	{
 		"name" : "Chupa chups chupa chups",
 		"location" : "Los Angeles, CA",
-		"degree" : "Master", 
+		"degree" : "Master",
 		"majors" : "Cakes",
 		"dates" : "2005 - 2006",
 		"url" : "https://google.com"
