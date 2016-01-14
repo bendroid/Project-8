@@ -147,7 +147,6 @@ function inName(name){
 	return newName;
 };
 
-
 work.display();
 projects.display();
 education.display();
