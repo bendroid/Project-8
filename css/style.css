@@ -86,7 +86,7 @@ a {
   line-height: 28px;
 }
 
-#skillsH3 {
+#skills-h3 {
   color: #F5AE23;
   display: none;
 }
@@ -203,7 +203,7 @@ span {
 }
 
 @media only screen and (min-width: 750px) {
-  #skillsH3,
+  #skills-h3,
   .biopic {
     display: block;
   }
