@@ -2,19 +2,19 @@ var bio = {
 	"name" : "Ben Collins",
 	"role" : "Cake Master",
 	"welcomeMessage" : "Lemon drops liquorice lollipop icing halvah chocolate bar. Donut macaroon biscuit caramels croissant cake bear claw. Candy danish liquorice. ", 
-	"image" : "images/pink_muffin.png",
+	"biopic" : "images/pink_muffin.png",
 	"contacts" : [{
 		"mobile" : "(555) 555-5555",
 		"github" : "bendroid",
 		"location" : "Rochester, NY",
+		"twitter" : "@nanocakes",
 		"email" : "myemail@email.com"
 	}],	
 	"skills" : ["Cakes","Cookies","Ice Cream", "Cupcakes"]
 };
 
 var work = {
-	"jobs" : [
-	{
+	"jobs" : [{
 		"employer" : "Latest Job",
 		"title" : "Cakes",
 		"dates" : "2013 - 2015",
@@ -27,8 +27,7 @@ var work = {
 		"dates" : "2011 - 2013",
 		"location" : "New York, NY",
 		"description" : "Jelly beans caramels dragée. Chocolate bar caramels gummies pudding. Pudding apple pie wafer marzipan gummi bears. Marzipan chocolate bar sweet. Lemon drops powder cupcake macaroon. Gingerbread donut pastry tootsie roll fruitcake pastry carrot cake."
-	}
-	]
+	}]
 };
 
 var projects = {
@@ -76,10 +75,10 @@ var education = {
 bio.display = function() {
 	var formattedName = HTMLheaderName.replace("%data%",bio.name);
 	var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
-	var formattedImage = HTMLbioPic.replace("%data%",bio.image);
+	var formattedBiopic = HTMLbioPic.replace("%data%",bio.biopic);
 	var formattedMessage = HTMLWelcomeMsg.replace("%data%",bio.welcomeMessage);
 
-	$("#header").prepend(formattedRole).prepend(formattedName).append(formattedImage,formattedMessage);
+	$("#header").prepend(formattedRole).prepend(formattedName).append(formattedBiopic,formattedMessage);
 	$("#header").append(HTMLskillsStart);
 
 	for(skill in bio.skills) {
@@ -90,8 +89,9 @@ bio.display = function() {
 	for(contact in bio.contacts) {
 		var formattedMobile = HTMLmobile.replace("%data%",bio.contacts[contact].mobile);
 		var formattedEmail = HTMLemail.replace("%data%",bio.contacts[contact].email);
+		var formattedTwitter = HTMLtwitter.replace("%data%",bio.contacts[contact].twitter);
 		var formattedGithub = HTMLcontactGeneric.replace("%contact%","github").replace("%data%",bio.contacts[contact].github);
-		$("#footerContacts").append(formattedMobile,formattedEmail,formattedGithub);
+		$("#footerContacts").append(formattedMobile,formattedEmail,formattedTwitter,formattedGithub);
 	};
 };
 
